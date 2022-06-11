@@ -1,0 +1,38 @@
+.CartHeader {
+  text-decoration: none;
+  color: #f8f8f8;
+  background: #ff884c;
+  padding: 10px 30px;
+  border-radius: 21px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.CartHeader .span-logo {
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+.CartHeader .span-amount {
+  background-color: black;
+  padding: 4%;
+  margin-left: 10%;
+  border-radius: 4px;
+}
+.CartHeader span {
+  margin-left: 4%;
+}
+
+.CartHeader:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #363636;
+}
+
+/*# sourceMappingURL=CartHeader.css.map */

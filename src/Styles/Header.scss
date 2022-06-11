@@ -1,0 +1,48 @@
+%Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+@import url('http://fonts.cdnfonts.com/css/greatade');
+
+
+.Header {
+    @extend %Flex;
+
+    padding: 1% 7%;
+
+    background-color: #dc2f2f;
+    position: sticky;
+
+    .Header-h2 {
+        font-family: 'greatade', sans-serif;
+        color: #f8f8f8;
+        font-size: 2.5rem;
+    }
+
+    .Header-button {
+            text-decoration: none;
+            color: #f8f8f8;
+            background: #ff884c;
+            padding: 15px 40px;
+            border-radius: 21px;
+            font-weight: normal;
+            transition: all 0.2s ease-in-out;
+            font-size: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border: none;
+    }
+
+    .Header-button:hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px #363636;
+      }
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

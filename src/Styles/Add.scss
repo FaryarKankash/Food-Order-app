@@ -1,0 +1,80 @@
+.Add-close {
+    text-decoration: none;
+    color: #f8f8f8;
+    background: #ff884c;
+    padding: 3px 8px;
+    border-radius: 21px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    width: 10%;
+}
+
+.Add-card {
+    background-image: url("./../photos/cat-add.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 90% 0%;
+
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+
+
+    font-family: 'KleinsanBold', sans-serif;
+    margin-top: 3%;
+    padding: 2%;
+    color: black;
+    width:60%;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+
+    .Add-form {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .Add-label {
+        margin: 1% 0; 
+    }
+
+    .Add-p {
+        color: red;
+        font-size: 0.7rem;
+    }
+
+    .Add-p-sub {
+        color: red;
+        font-size: 1rem;
+        margin: 1% 0;
+    }
+
+    .Add-input {
+        font-size: 1.2rem;
+        margin: 1% 0; 
+        width: 50%;
+    }
+
+    button {
+        text-decoration: none;
+        color: #f8f8f8;
+        background: #ff884c;
+        padding: 3px 8px;
+        border-radius: 21px;
+        font-weight: normal;
+        transition: all 0.2s ease-in-out;
+        width: 10%;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.7);
+}

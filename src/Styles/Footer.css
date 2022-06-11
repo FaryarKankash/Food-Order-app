@@ -1,0 +1,20 @@
+@import url("http://fonts.cdnfonts.com/css/greatade");
+.Footer {
+  font-family: "greatade", sans-serif;
+  color: #f8f8f8;
+  background-color: #dc2f2f;
+  margin-top: 5%;
+}
+.Footer h4 {
+  font-size: 1.7rem;
+  padding: 1%;
+}
+.Footer .Footer-items {
+  font-size: 1.1rem;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Footer.css.map */
